@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        thisContext = this;
+        thisContext = this;
     }
 
     public void AsyncTaskActivity(View view)
