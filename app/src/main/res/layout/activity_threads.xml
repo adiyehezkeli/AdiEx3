@@ -54,7 +54,6 @@
             android:layout_alignParentBottom="true"
             android:paddingTop="60dp"
             android:paddingBottom="60dp"
-            android:text="hi"
             />
     </LinearLayout>
 </RelativeLayout>

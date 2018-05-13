@@ -38,7 +38,7 @@ public class ThreadsActivity extends AppCompatActivity
     {
         if (myThread != null)
         {
-            myThread.cancel();
+            myThread.interrupt();
         }
     }
 }
