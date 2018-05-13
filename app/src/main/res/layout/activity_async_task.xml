@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/asyncTask_create_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="asyncTaskCreate"
+            android:text="create"
+            android:layout_gravity="left"
+            />
+
+        <Button
+            android:id="@+id/threads_start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="asyncTaskStart"
+            android:text="start"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/threads_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="asyncTaskCancel"
+            android:text="cancel"
+            android:layout_gravity="right"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/threads_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Async Task Activity"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="60dp"
+        android:paddingBottom="60dp"
+        />
+</RelativeLayout>
