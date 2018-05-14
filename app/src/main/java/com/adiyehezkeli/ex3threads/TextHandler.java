@@ -6,7 +6,6 @@ import android.os.Message;
 import android.os.Handler;
 import android.widget.TextView;
 
-import java.util.logging.LogRecord;
 
 public class TextHandler extends Handler
 {
